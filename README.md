@@ -12,6 +12,7 @@ git clone https://github.com/freddii/xfce-setting-files.git
 copy over the search shortcuts for whiskermenu that work in xubuntu and debian:
 -------
 ```
+mv ~/.config/xfce4/panel/whiskermenu-1.rc ~/.config/xfce4/panel/whiskermenu-1.rc_old
 cp ~/xfce-setting-files/whiskermenu-1.rc ~/.config/xfce4/panel/whiskermenu-1.rc
 xfce4-panel --restart
 ```
