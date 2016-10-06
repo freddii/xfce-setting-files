@@ -1,0 +1,181 @@
+favorites=exo-web-browser.desktop,exo-mail-reader.desktop,exo-file-manager.desktop,libreoffice-writer.desktop,libreoffice-calc.desktop,pidgin.desktop,org.gnome.Software.desktop,exo-terminal-emulator.desktop,xfhelp4.desktop
+recent=exo-file-manager.desktop,exo-preferred-applications.desktop,exo-terminal-emulator.desktop
+button-title=Applications Menu
+button-icon=xubuntu-logo-menu
+button-single-row=false
+show-button-title=false
+show-button-icon=true
+launcher-show-name=true
+launcher-show-description=false
+launcher-show-tooltip=true
+item-icon-size=1
+hover-switch-category=false
+category-icon-size=0
+load-hierarchy=true
+recent-items-max=10
+favorites-in-recent=true
+display-recent-default=false
+position-search-alternate=true
+position-commands-alternate=false
+position-categories-alternate=false
+menu-width=400
+menu-height=500
+menu-opacity=100
+command-settings=xfce4-settings-manager
+show-command-settings=true
+command-lockscreen=xflock4
+show-command-lockscreen=true
+command-switchuser=dm-tool switch-to-greeter
+show-command-switchuser=false
+command-logout=xfce4-session-logout
+show-command-logout=true
+command-menueditor=menulibre
+show-command-menueditor=true
+command-profile=mugshot
+show-command-profile=true
+search-actions=24
+
+[action0]
+name=Handbuchseiten
+pattern=#
+command=exo-open --launch TerminalEmulator man %s
+regex=false
+
+[action1]
+name=Wikipedia
+pattern=!w
+command=exo-open --launch WebBrowser https://en.wikipedia.org/wiki/%u
+regex=false
+
+[action2]
+name=Im Terminal ausführen
+pattern=!
+command=exo-open --launch TerminalEmulator %s
+regex=false
+
+[action3]
+name=Adresse öffnen
+pattern=^(file|http|https):\\/\\/(.*)$
+command=exo-open \\0
+regex=true
+
+[action4]
+name=amazon.de
+pattern=!a
+command=exo-open --launch WebBrowser https://www.amazon.de/s?ie=UTF8&field-keywords=%u
+regex=false
+
+[action5]
+name=alexa.com
+pattern=!alex
+command=exo-open --launch WebBrowser http://www.alexa.com/siteinfo/%u
+regex=false
+
+[action6]
+name=alibaba
+pattern=!ali
+command=exo-open --launch WebBrowser http://www.alibaba.com/trade/search?fsb=y&IndexArea=product_en&CatId=&SearchText=%u
+regex=false
+
+[action7]
+name=archive.org
+pattern=!ar
+command=exo-open --launch WebBrowser https://web.archive.org/web/*/%u
+regex=false
+
+[action8]
+name=webbrowser
+pattern=!b
+command=exo-open --launch WebBrowser %s
+regex=false
+
+[action9]
+name=dict.uni-leipzig
+pattern=!dul
+command=exo-open --launch WebBrowser http://dict.uni-leipzig.de/index.php?wort=%u
+regex=false
+
+[action10]
+name=ebaykleinanzeigen
+pattern=!e
+command=exo-open --launch WebBrowser https://www.ebay-kleinanzeigen.de/s-%u/k0
+regex=false
+
+[action11]
+name=fredfire1
+pattern=!ff
+command=exo-open --launch WebBrowser https://fredfire1.wordpress.com/?s=%u&submit=Search
+regex=false
+
+[action12]
+name=github
+pattern=!g
+command=exo-open --launch WebBrowser https://github.com/search?utf8=%E2%9C%93&q=%u
+regex=false
+
+[action13]
+name=hackaday
+pattern=!h
+command=exo-open --launch WebBrowser http://hackaday.com/?s=%u
+regex=false
+
+[action14]
+name=metager
+pattern=!m
+command=exo-open --launch WebBrowser https://metager.de/meta/meta.ger3?focus=web&eingabe=%u
+regex=false
+
+[action15]
+name=openstreetmap
+pattern=!o
+command=exo-open --launch WebBrowser https://www.openstreetmap.org/search?query=%u
+regex=false
+
+[action16]
+name=raspberrypi.org
+pattern=!rpi
+command=exo-open --launch WebBrowser https://www.raspberrypi.org/?s=%u
+regex=false
+
+[action17]
+name=startpage
+pattern=!s
+command=exo-open --launch WebBrowser https://www.startpage.com/do/dsearch?query=%u
+regex=false
+
+[action18]
+name=superuser
+pattern=!su
+command=exo-open --launch WebBrowser https://superuser.com/search?q=%u
+regex=false
+
+[action19]
+name=thingiverse
+pattern=!t
+command=exo-open --launch WebBrowser http://www.thingiverse.com/search?q=%u
+regex=false
+
+[action20]
+name=vimeo
+pattern=!v
+command=exo-open --launch WebBrowser https://vimeo.com/search?q=%u
+regex=false
+
+[action21]
+name=wolframalpha
+pattern=!w
+command=exo-open --launch WebBrowser https://www.wolframalpha.com/input/?i=%u
+regex=false
+
+[action22]
+name=wordpress
+pattern=!wp
+command=exo-open --launch WebBrowser https://en.search.wordpress.com/?src=organic&q=%u
+regex=false
+
+[action23]
+name=youtube
+pattern=!y
+command=exo-open --launch WebBrowser https://www.youtube.com/results?search_query=%u
+regex=false
+
