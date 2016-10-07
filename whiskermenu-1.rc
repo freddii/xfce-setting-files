@@ -1,5 +1,5 @@
 favorites=exo-web-browser.desktop,exo-mail-reader.desktop,exo-file-manager.desktop,libreoffice-writer.desktop,libreoffice-calc.desktop,pidgin.desktop,org.gnome.Software.desktop,exo-terminal-emulator.desktop,xfhelp4.desktop
-recent=exo-file-manager.desktop,exo-preferred-applications.desktop,exo-terminal-emulator.desktop
+recent=
 button-title=Applications Menu
 button-icon=xubuntu-logo-menu
 button-single-row=false
@@ -33,7 +33,7 @@ command-menueditor=menulibre
 show-command-menueditor=true
 command-profile=mugshot
 show-command-profile=true
-search-actions=24
+search-actions=25
 
 [action0]
 name=Handbuchseiten
@@ -44,7 +44,7 @@ regex=false
 [action1]
 name=Wikipedia
 pattern=!w
-command=exo-open --launch WebBrowser https://en.wikipedia.org/wiki/%u
+command=exo-open --launch WebBrowser https://de.wikipedia.org/wiki/%u
 regex=false
 
 [action2]
@@ -163,7 +163,7 @@ regex=false
 
 [action21]
 name=wolframalpha
-pattern=!w
+pattern=!wa
 command=exo-open --launch WebBrowser https://www.wolframalpha.com/input/?i=%u
 regex=false
 
@@ -174,8 +174,13 @@ command=exo-open --launch WebBrowser https://en.search.wordpress.com/?src=organi
 regex=false
 
 [action23]
-name=youtube
+name=youtubexy
 pattern=!y
 command=exo-open --launch WebBrowser https://www.youtube.com/results?search_query=%u
 regex=false
 
+[action24]
+name=fredfire1-admin
+pattern=!ffa
+command=exo-open --launch WebBrowser https://fredfire1.wordpress.com/wp-admin/edit.php?s=%u&post_status=all&post_type=post&action=-1&m=0&cat=0&paged=1&action2=-1
+regex=false
