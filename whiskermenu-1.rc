@@ -78,15 +78,15 @@ command=exo-open --launch WebBrowser https://web.archive.org/web/*/%u
 regex=false
 
 [action7]
-name:open-link-in-browser
-pattern:!b
-command:exo-open --launch WebBrowser %s
+name=open-link-in-browser
+pattern=!b
+command=exo-open --launch WebBrowser %s
 regex=false
 
 [action8]
-name:chip.de
-pattern:!c
-command:exo-open --launch WebBrowser http://search.chip.de/?q=%u
+name=chip.de
+pattern=!c
+command=exo-open --launch WebBrowser http://search.chip.de/?q=%u
 regex=false
 
 [action9]
@@ -120,9 +120,9 @@ command=exo-open --launch WebBrowser https://github.com/search?utf8=%E2%9C%93&q=
 regex=false
 
 [action14]
-name:google
-pattern:!go
-command:exo-open --launch WebBrowser https://www.google.de/search?q=%u
+name=google
+pattern=!go
+command=exo-open --launch WebBrowser https://www.google.de/search?q=%u
 regex=false
 
 [action15]
@@ -144,9 +144,9 @@ command=exo-open --launch WebBrowser https://www.openstreetmap.org/search?query=
 regex=false
 
 [action18]
-name:proxy startpage
-pattern:!ps
-command:exo-open --launch WebBrowser https://proxy.suma-ev.de/cgi-bin/nph-proxy.cgi/zh/I0/https/www.startpage.com/do/dsearch?query=%u
+name=proxy startpage
+pattern=!ps
+command=exo-open --launch WebBrowser https://proxy.suma-ev.de/cgi-bin/nph-proxy.cgi/zh/I0/https/www.startpage.com/do/dsearch?query=%u
 regex=false
 
 [action19]
@@ -198,9 +198,9 @@ command=exo-open --launch WebBrowser https://en.search.wordpress.com/?src=organi
 regex=false
 
 [action27]
-name:yandex
-pattern:!ya
-command:exo-open --launch WebBrowser https://yandex.com/search/?text=%u
+name=yandex
+pattern=!ya
+command=exo-open --launch WebBrowser https://yandex.com/search/?text=%u
 regex=false
 
 [action28]
